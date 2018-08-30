@@ -18,7 +18,7 @@ configurations.all {
 }
 ```
 
-Building `./gradlew app:assembleDebug` works fine on command line, and generates a working APK, but Android Studio shows an error in `app/src/main/AndroidManifest.xml` (when looking at the merged manifest view) saying:
+Building `./gradlew app:assembleDebug` works fine on command line, and generates a working APK, but Android Studio shows an error in [`app/src/main/AndroidManifest.xml`](https://github.com/onemahon/RoseGarden/blob/master/app/src/main/AndroidManifest.xml) (when looking at the merged manifest view) saying:
 
 > Merging Errors: Error: Attribute meta-data#garden_type@value value=(This is where tulips grow) from AndroidManifest.xml:5:47-88 is also present at AndroidManifest.xml:5:47-87 value=(This is where roses grow). Suggestion: add 'tools:replace="android:value"' to <meta-data> element at AndroidManifest.xml:5:9-90 to override. app main manifest (this file), line 4
 
