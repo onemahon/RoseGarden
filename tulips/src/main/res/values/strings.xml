@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">tulips</string>
+
+    <string name="string_that_collides">Tulip module</string>
 </resources>

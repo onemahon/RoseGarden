@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">roses</string>
+
+    <string name="string_that_collides">Rose module</string>
 </resources>
